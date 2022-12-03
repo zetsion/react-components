@@ -19,8 +19,10 @@ import Mac from "./Pages/Mac/Mac";
 import Four04 from "./Pages/Four04/Four04";
 import Productpage from "./Pages/Productpage/Productpage";
 
+
 // import general css
 import "./css/styles.css";
+import YoutubeVideos from "./Components/Youtube/YoutubeVideos";
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
           <Route path="/iphone/:pid" exact component={Productpage} />
           <Route path="/" component={Four04} />
         </Switch>
+        <YoutubeVideos/>
         <Footer />
       </div>
     </Router>

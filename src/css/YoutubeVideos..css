@@ -1,0 +1,27 @@
+
+.YoutubeVideosWraper{
+    background-color: rgb(240, 248, 255);
+    padding: 50px;
+}
+.SingleVideoWrapper{
+    background-color: aliceblue;
+    box-shadow: 4px 0px 13x rgba(red, green, blue, alpha);
+    margin-bottom: 30px;
+    max-height: 393px;
+    overflow: hidden;
+}
+.VideoInfoWrapper{
+    padding: 10px 20px;
+    text-align: left;
+}
+.VideoTitle{
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.VideoTitle a {
+color: blue;
+}
+.VideoDescription{
+    font-size: 1em;
+    color: blueviolet;
+}

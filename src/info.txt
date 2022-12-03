@@ -1,0 +1,36 @@
+Project id:
+    react-components
+API key: 
+    AIzaSyD1SrJfo-Kicjn2Hcs1vZ6lbwJc0gXZjUs
+
+API request:
+          https://www.googleapis.com/youtube/v3/search?key={YOUR_API_KEY}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=10
+
+     or 
+                https://www.googleapis.com/youtube/v3/search?
+                key={YOUR_API_KEY}&
+                channelId={channel_id_here}&
+                part=snippet,id&
+                order=date&
+                maxResults=10
+    finaly 
+             https://www.googleapis.com/youtube/v3/search?key=AIzaSyD1SrJfo-Kicjn2Hcs1vZ6lbwJc0gXZjUs&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&
+order=date&maxResults=8
+
+
+channel_id request to apple 
+        https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=Apple&key=AIzaSyD1SrJfo-Kicjn2Hcs1vZ6lbwJc0gXZjUs
+
+apple channel ....apple id 
+               UCE_M8A5yxnLfW0KghEeajjw
+
+
+
+
+
+
+/////////////////////////////
+
+Youtube API for search using keywords
+           
+
